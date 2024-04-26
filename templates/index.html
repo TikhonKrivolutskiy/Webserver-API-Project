@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href= "/static/css/index.css">
+    {% block head %}
+        <title>Главная страница</title>
+    {% endblock %}
+  </head> 
+  <body> 
+    <header>
+        <ul>
+          <li><a href="/">Главная страница</a></li>
+          <li><a href="/products">Продукция</a></li>
+          <li><a href="/contacts">Контакты</a></li>
+          <li><a href="/cart">Корзина</a></li>
+          <li><a href="/about">О компании</a></li>
+        </ul>
+        <ul class="special">
+          <li><a href="/logout">Выход</a></li>
+        </ul>
+    </header>
+    {% block content %}
+    <div class="ts">Новости и специальные предложения</div>
+        <div class="main">
+            <img src="/static/images/offers/offer.jpg"></img>
+            <div class="tss"><span class="tss_date">[12.04]</span> Строительство нового мебельного ТЦ в г. Красноярск!</div>             
+        </div>
+    </body> 
+    {% endblock %}
+</html> 

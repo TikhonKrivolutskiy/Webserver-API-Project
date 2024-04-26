@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/UI/background.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 1;
+    background-size: 100%;
+    margin: 0;
+}
+
+table {
+    margin: 15px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 90%;
+    border: solid 5px royalblue;
+}
+
+table th,
+table td {
+    padding: 12px 15px; 
+}
+
+table tr{ 
+    background-color: black;
+    color: white
+}
+
+table tr:first-child:hover{ 
+    background-color: black;
+}
+
+table tr:hover{ 
+    background-color: #808080;
+}
+
+button{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover{ 
+    background-color: black;
+    color: goldenrod;
+}

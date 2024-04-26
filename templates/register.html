@@ -1,0 +1,16 @@
+<link rel="stylesheet" href= "static/css/login-register.css">
+
+<body>
+<form action="/register" method="post">
+<div class="login-form">
+<div class="ts">Войдите в свой аккаунт или зарегистрируйтесь</div>
+<a class="message">{{error}}</a>
+<input type="text" name="login" placeholder="Логин">
+<input type="password" name="password" placeholder="Пароль">
+<input type="password" name="password_check" placeholder="Повторите пароль">
+<input type="text" name="phone_number" placeholder="Номер Телефона">
+<input type="text" name="email" placeholder="email">
+<button class="button1" type="submit">Зарегистрироваться</button>
+<a href="/login" class="button2">Вход в аккаунт</a>
+</div>
+</body>

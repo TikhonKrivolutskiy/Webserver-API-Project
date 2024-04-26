@@ -1,0 +1,132 @@
+body {
+    background-image: url('../images/UI/background2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    background-size: 130%;
+    margin: 0;
+}
+
+table {
+    margin: 15px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 90%;
+    border: solid 5px royalblue;
+}
+
+table th,
+table td {
+    padding: 12px 15px; 
+}
+
+table tr{ 
+    background-color: black;
+    color: white
+}
+
+table tr:first-child:hover{ 
+    background-color: black;
+}
+
+table tr:hover{ 
+    background-color: #808080;
+}
+
+.a1 {
+    display: block;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+}
+
+.sum {
+    text-align: right;
+    margin-right: 10%;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 
+        -0   -3px 1px black,
+         0   -3px 1px black,
+        -0    3px 1px black,
+         0    3px 1px black,
+        -3px -0   1px black,
+         3px -0   1px black,
+        -3px  0   1px black,
+         3px  0   1px black,
+        -1px -3px 1px black,
+         1px -3px 1px black,
+        -1px  3px 1px black,
+         1px  3px 1px black,
+        -3px -1px 1px black,
+         3px -1px 1px black,
+        -3px  1px 1px black,
+         3px  1px 1px black,
+        -2px -3px 1px black,
+         2px -3px 1px black,
+        -2px  3px 1px black,
+         2px  3px 1px black,
+        -3px -2px 1px black,
+         3px -2px 1px black,
+        -3px  2px 1px black,
+         3px  2px 1px black,
+        -3px -3px 1px black,
+         3px -3px 1px black,
+        -3px  3px 1px black,
+         3px  3px 1px black,
+        -3px -3px 1px black,
+         3px -3px 1px black,
+        -3px  3px 1px black,
+         3px  3px 1px black;
+}
+
+.ts {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+        -0   -3px 1px black,
+         0   -3px 1px black,
+        -0    3px 1px black,
+         0    3px 1px black,
+        -3px -0   1px black,
+         3px -0   1px black,
+        -3px  0   1px black,
+         3px  0   1px black,
+        -1px -3px 1px black,
+         1px -3px 1px black,
+        -1px  3px 1px black,
+         1px  3px 1px black,
+        -3px -1px 1px black,
+         3px -1px 1px black,
+        -3px  1px 1px black,
+         3px  1px 1px black,
+        -2px -3px 1px black,
+         2px -3px 1px black,
+        -2px  3px 1px black,
+         2px  3px 1px black,
+        -3px -2px 1px black,
+         3px -2px 1px black,
+        -3px  2px 1px black,
+         3px  2px 1px black,
+        -3px -3px 1px black,
+         3px -3px 1px black,
+        -3px  3px 1px black,
+         3px  3px 1px black,
+        -3px -3px 1px black,
+         3px -3px 1px black,
+        -3px  3px 1px black,
+         3px  3px 1px black;
+}

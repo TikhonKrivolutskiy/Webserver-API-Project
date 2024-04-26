@@ -1,0 +1,33 @@
+body {
+    background-image: url('../images/UI/background1.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 1;
+    background-size: 100%;
+    margin: 0;
+}
+
+.left {
+    float: left;
+    border: solid 2px goldenrod;
+}
+.right {
+    float: right;
+    border: solid 2px goldenrod;
+}
+.text {
+    color: white;
+    height: 300px;
+    margin: 5%;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text:nth-of-type(even) {
+    background-color: royalblue;
+}
+
+.text:nth-of-type(odd) { 
+    background-color: royalblue;
+}

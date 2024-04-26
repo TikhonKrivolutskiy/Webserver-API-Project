@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/UI/background4.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 1;
+    background-size: 100%;
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.contacts:nth-of-type(even) { 
+    background-color: royalblue;
+}
+
+p {
+    color:white;
+    font-size: 20px;
+    text-align: center
+}
+
+h1 {
+    color:goldenrod;
+    text-align: center
+}
